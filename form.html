@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a Review</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Submit Your Review Of Your Experience</h1>
+      <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="container">
+  <form name="reviewForm" onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email">
+
+    <label for="phone">Phone Type:</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone type">
+
+    <label for="rating"> Service Rating:</label>
+    <select id="rating" name="rating">
+      <option value="5">5</option>
+      <option value="4">4</option>
+      <option value="3">3</option>
+      <option value="2">2</option>
+      <option value="1">1</option>
+    </select>
+
+    <label>Environment:</label>
+    <input type="radio" name="environment" value="Clean"> Clean
+    <input type="radio" name="environment" value="Dirty"> Dirty<br>
+
+    <label>Promptness of agent:</label>
+    <input type="checkbox" name="prompt" value="quick"> was quick
+    <input type="checkbox" name="prompt" value="okay"> just okay
+    <input type="checkbox" name="prompt" value="slow"> quite slow<br>
+
+    <label for="review">Review:</label>
+    <textarea id="review" name="review" placeholder="Write your review"></textarea>
+
+    <label for="date">Date of Review:</label>
+    <input type="date" id="date" name="date">
+
+    <label for="image">Upload image of repaired phone:</label>
+    <input type="file" id="image" name="image">
+
+    <input type="submit" value="Submit Review">
+  </form>
+</div>
+
+<footer>
+  <p>&copy; 2024 Cyril's Phone Repair Review Platform. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

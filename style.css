@@ -1,0 +1,109 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+p{
+font-family:book antiqua;
+}
+header, footer {
+  background-color: #0000FF;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.nav{
+text-shadow:3px 2px 2px #FF0000;
+ text-decoration:underline #FF0000;
+}
+
+h1, h2 {
+  color: #333033;
+}
+#backg{
+background-color:#FFFFFF;
+}
+#image{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:70%;
+height:70%;
+}
+h1{
+font-family:algerian;
+text-decoration: single underline #FF0000;
+text-shadow:3px 2px 2px #FF0000;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+}
+
+input[type=text], input[type=email], input[type=file], input[type=date], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=checkbox], input[type=radio] {
+  margin-right: 10px;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Make landing page appealing */
+.landing-page {
+  background-image: url('landing.jpg');
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+}
